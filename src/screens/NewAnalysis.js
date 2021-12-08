@@ -76,6 +76,7 @@ const NewAnalysis = () => {
                 <TextInput
                   placeholder="AUTO DATE"
                   onChangeText={text => setStock(text)}
+                  // onChangeText={text => setStock(text)}
                   value={Stock}
                   onFocus={() => setEnableShift(true)}
                   style={[STYLES.inputNewAna, {marginLeft: 16}]}
