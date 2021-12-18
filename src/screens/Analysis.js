@@ -36,13 +36,13 @@ const NewAnalysis = () => {
             <View style={{margin: 10, marginTop: 30}}>
               <Grid>
                 <Col size={10}>
-                  <Row style={[STYLES.RowView, {borderTopLeftRadius: 15, height: 90, backgroundColor: '#36c3d0'}]}>
+                  <Row style={[STYLES.RowView, {borderTopLeftRadius: 15, height: 90, backgroundColor: colors.SECONDARY}]}>
                     <Text style={[STYLES.RowText, {color: '#ffffff', fontSize: 16}]}>S No</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
                     <Text style={STYLES.RowText}>1.</Text>
                   </Row>
-                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#effcfc'}]}>
+                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#bfa09d'}]}>
                     <Text style={STYLES.RowText}>2.</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
@@ -50,13 +50,13 @@ const NewAnalysis = () => {
                   </Row>
                 </Col>
                 <Col size={10}>
-                  <Row style={[STYLES.RowView, {height: 90, backgroundColor: '#36c3d0'}]}>
+                  <Row style={[STYLES.RowView, {height: 90, backgroundColor: colors.SECONDARY}]}>
                     <Text style={[STYLES.RowText, {color: '#ffffff', fontSize: 16}]}>VIN</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
                     <Text style={STYLES.RowText}>5432</Text>
                   </Row>
-                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#effcfc'}]}>
+                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#bfa09d'}]}>
                     <Text style={STYLES.RowText}>8412</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
@@ -64,13 +64,13 @@ const NewAnalysis = () => {
                   </Row>
                 </Col>
                 <Col size={15}>
-                  <Row style={[STYLES.RowView, {height: 90, backgroundColor: '#36c3d0'}]}>
+                  <Row style={[STYLES.RowView, {height: 90, backgroundColor: colors.SECONDARY}]}>
                     <Text style={[STYLES.RowText, {color: '#ffffff', fontSize: 16}]}>STOCK RO</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
                     <Text style={STYLES.RowText}>445</Text>
                   </Row>
-                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#effcfc'}]}>
+                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#bfa09d'}]}>
                     <Text style={STYLES.RowText}>989</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
@@ -78,13 +78,13 @@ const NewAnalysis = () => {
                   </Row>
                 </Col>
                 <Col size={20}>
-                  <Row style={[STYLES.RowView, {height: 90, backgroundColor: '#36c3d0'}]}>
+                  <Row style={[STYLES.RowView, {height: 90, backgroundColor: colors.SECONDARY}]}>
                     <Text style={[STYLES.RowText, {color: '#ffffff', fontSize: 16}]}>DATE OF ANALYSIS</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
                     <Text style={STYLES.RowText}>3-11-2021</Text>
                   </Row>
-                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#effcfc'}]}>
+                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#bfa09d'}]}>
                     <Text style={STYLES.RowText}>2-2-2021</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
@@ -92,7 +92,7 @@ const NewAnalysis = () => {
                   </Row>
                 </Col>
                 <Col size={20}>
-                  <Row style={[STYLES.RowView, {borderTopRightRadius: 15, height: 90, backgroundColor: '#36c3d0'}]}>
+                  <Row style={[STYLES.RowView, {borderTopRightRadius: 15, height: 90, backgroundColor: colors.SECONDARY}]}>
                     <Text style={[STYLES.RowText, {color: '#ffffff', fontSize: 16, marginLeft: -25}]}>PARTS</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff', justifyContent: 'space-between'}]}>
@@ -101,7 +101,7 @@ const NewAnalysis = () => {
                       <FontAwesome name='plus' size={20} color="#000" />
                     </TouchableOpacity>
                   </Row>
-                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#effcfc', justifyContent: 'space-between'}]}>
+                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#bfa09d', justifyContent: 'space-between'}]}>
                     <Text style={STYLES.RowText}>12 Parts</Text>
                     <TouchableOpacity onPress={() => setModalVisible2(true)} style={{marginRight: 20}}>
                       <FontAwesome name='plus' size={20} color="#000" />
@@ -238,17 +238,16 @@ const NewAnalysis = () => {
               isVisible={modalVisibleMenu}
               animationIn="slideInLeft"
               animationOut="slideOutLeft"
+              backdropOpacity={0.2}
+              onBackdropPress={() => setModalVisibleMenu(false)}
             >
-            <Pressable onPress={() => setModalVisibleMenu(false)} style={{width: '28.5%', height: Dimensions.get("screen").height, alignSelf: 'flex-end', position: 'absolute', zIndex: 1}}>
-                <Text style={{color: '#fff'}}></Text>
-            </Pressable>
-                <LinearGradient colors={['#417bdb', '#337cdb']} style={STYLES.modalViewRegistration}>
+                <LinearGradient colors={[colors.SECONDARY, colors.SECONDARY]} style={STYLES.modalViewRegistration}>
                     <ScrollView>
                         <View style={{marginTop: '8%', margin: 10}}>
                         <TouchableOpacity onPress={() => setModalVisibleMenu(false)} style={{zIndex: 1, width: 25, alignSelf: 'flex-end'}}>
                             <FontAwesome name='times' style={{marginTop: 90, bottom: 60}} size={30} color="#ffffff" />
                         </TouchableOpacity> 
-                        <Image source={require("../assets/images/logo.png")} style={{width: 250, height: 250, marginTop: -120}} resizeMode='contain'/> 
+                        <Image source={require("../assets/images/logo-white.png")} style={{width: 250, height: 250, marginTop: -120}} resizeMode='contain'/> 
                       <ModalView />
                       </View>
                       <Text></Text>

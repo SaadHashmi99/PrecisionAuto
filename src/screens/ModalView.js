@@ -79,13 +79,13 @@ export default function ModalView() {
             ?
             <Text></Text>
             :
-            <View style={{backgroundColor: '#91b5f1', width: '120%', marginLeft: '-9%'}}>
+            <View style={{backgroundColor: '#bfa09d', width: '120%', marginLeft: '-11%'}}>
                 <View style={{marginLeft: '15%'}}>
                     <TouchableOpacity onPress={() => navigation.navigate('NewRegistration')} style={{color: "#ffffff", fontWeight: 'bold', fontSize: 16}}>
-                        <Text style={{color: '#ffffff', fontSize: 16, marginTop: 10}}>NEW REGISTRATION</Text>
+                        <Text style={{color: '#000000', fontSize: 16, marginTop: 10, fontWeight: 'bold'}}>NEW REGISTRATION</Text>
                     </TouchableOpacity>  
                     <TouchableOpacity onPress={() => navigation.navigate('Registration')} style={{color: "#ffffff", fontWeight: 'bold', fontSize: 16}}>
-                        <Text style={{color: '#ffffff', fontSize: 16, marginTop: 10, marginBottom: 10}}>VEHICLE LIST</Text>
+                        <Text style={{color: '#000000', fontSize: 16, marginTop: 10, marginBottom: 10, fontWeight: 'bold'}}>VEHICLE LIST</Text>
                     </TouchableOpacity>
                 </View>
             </View>  
@@ -105,13 +105,13 @@ export default function ModalView() {
             ?
             <Text></Text>
             :
-            <View style={{backgroundColor: '#91b5f1', width: '120%', marginLeft: '-9%'}}>
+            <View style={{backgroundColor: '#bfa09d', width: '120%', marginLeft: '-11%'}}>
                 <View style={{marginLeft: '15%'}}>
                     <TouchableOpacity onPress={() => navigation.navigate('NewAnalysis')} style={{color: "#ffffff", fontWeight: 'bold', fontSize: 16}}>
-                        <Text style={{color: '#ffffff', fontSize: 16, marginTop: 10}}>ADD NEW ANALYSIS</Text>
+                        <Text style={{color: '#000000', fontSize: 16, marginTop: 10, fontWeight: 'bold'}}>ADD NEW ANALYSIS</Text>
                     </TouchableOpacity>  
                     <TouchableOpacity onPress={() => navigation.navigate('Analysis')} style={{color: "#ffffff", fontWeight: 'bold', fontSize: 16}}>
-                        <Text style={{color: '#ffffff', fontSize: 16, marginTop: 10, marginBottom: 10}}>ANALYSIS LIST</Text>
+                        <Text style={{color: '#000000', fontSize: 16, marginTop: 10, marginBottom: 10, fontWeight: 'bold'}}>ANALYSIS LIST</Text>
                     </TouchableOpacity>
                 </View>
             </View>  
@@ -131,22 +131,22 @@ export default function ModalView() {
             ?
             <Text></Text>
             :
-            <View style={{backgroundColor: '#91b5f1', width: '120%', marginLeft: '-9%'}}>
+            <View style={{backgroundColor: '#bfa09d', width: '120%', marginLeft: '-11%'}}>
                 <View style={{marginLeft: '15%'}}>
                     <TouchableOpacity onPress={() => navigation.navigate('ProductRPurchase')} style={{color: "#ffffff", fontWeight: 'bold', fontSize: 16}}>
-                        <Text style={{color: '#ffffff', fontSize: 16, marginTop: 10, marginBottom: 10}}>PURCHASE REQUESTS</Text>
+                        <Text style={{color: '#000000', fontSize: 16, marginTop: 10, marginBottom: 10, fontWeight: 'bold'}}>PURCHASE REQUESTS</Text>
                     </TouchableOpacity>  
                     <TouchableOpacity onPress={() => navigation.navigate('ProductRReview')} style={{color: "#ffffff", fontWeight: 'bold', fontSize: 16}}>
-                        <Text style={{color: '#ffffff', fontSize: 16, marginTop: 10, marginBottom: 10}}>PR REVIEW</Text>
+                        <Text style={{color: '#000000', fontSize: 16, marginTop: 10, marginBottom: 10, fontWeight: 'bold'}}>PR REVIEW</Text>
                     </TouchableOpacity>
                     <TouchableOpacity onPress={() => navigation.navigate('ProductRQuotation')} style={{color: "#ffffff", fontWeight: 'bold', fontSize: 16}}>
-                        <Text style={{color: '#ffffff', fontSize: 16, marginTop: 10, marginBottom: 10}}>QUOTATION BY SUPPLIERS</Text>
+                        <Text style={{color: '#000000', fontSize: 16, marginTop: 10, marginBottom: 10, fontWeight: 'bold'}}>QUOTATION BY SUPPLIERS</Text>
                     </TouchableOpacity>
                     <TouchableOpacity onPress={() => navigation.navigate('ProductROrder')} style={{color: "#ffffff", fontWeight: 'bold', fontSize: 16}}>
-                        <Text style={{color: '#ffffff', fontSize: 16, marginTop: 10, marginBottom: 10}}>PURCHASE ORDER LIST</Text>
+                        <Text style={{color: '#000000', fontSize: 16, marginTop: 10, marginBottom: 10, fontWeight: 'bold'}}>PURCHASE ORDER LIST</Text>
                     </TouchableOpacity>
                     <TouchableOpacity onPress={() => navigation.navigate('ProductRGood')} style={{color: "#ffffff", fontWeight: 'bold', fontSize: 16}}>
-                        <Text style={{color: '#ffffff', fontSize: 16, marginTop: 10, marginBottom: 10}}>GOOD RECIEVING NOTE</Text>
+                        <Text style={{color: '#000000', fontSize: 16, marginTop: 10, marginBottom: 10, fontWeight: 'bold'}}>GOOD RECIEVING NOTE</Text>
                     </TouchableOpacity>
                 </View>
             </View>  
@@ -166,19 +166,19 @@ export default function ModalView() {
             ?
             <Text></Text>
             :
-            <View style={{backgroundColor: '#91b5f1', width: '120%', marginLeft: '-9%'}}>
+            <View style={{backgroundColor: '#bfa09d', width: '120%', marginLeft: '-11%'}}>
                 <View style={{marginLeft: '15%'}}>
                     <TouchableOpacity onPress={() => navigation.navigate('BodyWorkshop')} style={{color: "#ffffff", fontWeight: 'bold', fontSize: 16}}>
-                        <Text style={{color: '#ffffff', fontSize: 16, marginTop: 10, marginBottom: 10}}>BODY WORKSHOP</Text>
+                        <Text style={{color: '#000000', fontSize: 16, marginTop: 10, marginBottom: 10, fontWeight: 'bold'}}>BODY WORKSHOP</Text>
                     </TouchableOpacity>  
                     <TouchableOpacity onPress={() => navigation.navigate('PaintWorkshop')} style={{color: "#ffffff", fontWeight: 'bold', fontSize: 16}}>
-                        <Text style={{color: '#ffffff', fontSize: 16, marginTop: 10, marginBottom: 10}}>PAINT WORKSHOP</Text>
+                        <Text style={{color: '#000000', fontSize: 16, marginTop: 10, marginBottom: 10, fontWeight: 'bold'}}>PAINT WORKSHOP</Text>
                     </TouchableOpacity>
                     <TouchableOpacity onPress={() => navigation.navigate('MechanicWorkshop')} style={{color: "#ffffff", fontWeight: 'bold', fontSize: 16}}>
-                        <Text style={{color: '#ffffff', fontSize: 16, marginTop: 10, marginBottom: 10}}>MECHANIC WORKSHOP</Text>
+                        <Text style={{color: '#000000', fontSize: 16, marginTop: 10, marginBottom: 10, fontWeight: 'bold'}}>MECHANIC WORKSHOP</Text>
                     </TouchableOpacity>
                     <TouchableOpacity onPress={() => navigation.navigate('DetailerWorkshop')} style={{color: "#ffffff", fontWeight: 'bold', fontSize: 16}}>
-                        <Text style={{color: '#ffffff', fontSize: 16, marginTop: 10, marginBottom: 10}}>DETAILER WORKSHOP</Text>
+                        <Text style={{color: '#000000', fontSize: 16, marginTop: 10, marginBottom: 10, fontWeight: 'bold'}}>DETAILER WORKSHOP</Text>
                     </TouchableOpacity>
                 </View>
             </View>  
@@ -198,13 +198,13 @@ export default function ModalView() {
             ?
             <Text></Text>
             :
-            <View style={{backgroundColor: '#91b5f1', width: '120%', marginLeft: '-9%'}}>
+            <View style={{backgroundColor: '#bfa09d', width: '120%', marginLeft: '-11%'}}>
                 <View style={{marginLeft: '15%'}}>
                     <TouchableOpacity onPress={() => navigation.navigate('NewUsers')} style={{color: "#ffffff", fontWeight: 'bold', fontSize: 16}}>
-                        <Text style={{color: '#ffffff', fontSize: 16, marginTop: 10, marginBottom: 10}}>ADD A USER</Text>
+                        <Text style={{color: '#000000', fontSize: 16, marginTop: 10, marginBottom: 10, fontWeight: 'bold'}}>ADD A USER</Text>
                     </TouchableOpacity>  
                     <TouchableOpacity onPress={() => navigation.navigate('Users')} style={{color: "#ffffff", fontWeight: 'bold', fontSize: 16}}>
-                        <Text style={{color: '#ffffff', fontSize: 16, marginTop: 10, marginBottom: 10}}>USER LIST</Text>
+                        <Text style={{color: '#000000', fontSize: 16, marginTop: 10, marginBottom: 10, fontWeight: 'bold'}}>USER LIST</Text>
                     </TouchableOpacity>
                 </View>
             </View>  
@@ -224,20 +224,20 @@ export default function ModalView() {
             ?
             <Text></Text>
             :
-            <View style={{backgroundColor: '#91b5f1', width: '120%', marginLeft: '-9%'}}>
+            <View style={{backgroundColor: '#bfa09d', width: '120%', marginLeft: '-11%'}}>
                 <View style={{marginLeft: '15%'}}>
                     <TouchableOpacity onPress={() => navigation.navigate('Settings')} style={{color: "#ffffff", fontWeight: 'bold', fontSize: 16}}>
-                        <Text style={{color: '#ffffff', fontSize: 16, marginTop: 10, marginBottom: 10}}>HOURLY RATE OF LABOUR</Text>
+                        <Text style={{color: '#000000', fontSize: 16, marginTop: 10, marginBottom: 10, fontWeight: 'bold'}}>HOURLY RATE OF LABOUR</Text>
                     </TouchableOpacity> 
                 </View>
             </View>  
             }
         </View>
         <View style={{paddingHorizontal: 10, paddingVertical: 10, flexDirection: 'column'}}>
-            <View style={{backgroundColor: colors.TEXT, width: '120%', marginLeft: '-9%'}}>
+            <View style={{backgroundColor: colors.TEXT, width: '120%', marginLeft: '-11%'}}>
                 <View style={{alignSelf: 'center'}}>
                     <TouchableOpacity onPress={() => navigation.navigate('Dashboard')} style={{color: "#ffffff", fontWeight: 'bold', fontSize: 16}}>
-                        <Text style={{color: '#ffffff', fontSize: 16, marginTop: 10, marginBottom: 10, fontWeight: 'bold'}}>GO BACK HOME</Text>
+                        <Text style={{color: '#ffffff', fontSize: 16, marginTop: 10, marginBottom: 10, fontWeight: 'bold', fontWeight: 'bold'}}>GO BACK HOME</Text>
                     </TouchableOpacity> 
                 </View>
             </View>  

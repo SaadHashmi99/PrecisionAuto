@@ -39,13 +39,13 @@ const ProductROrder = () => {
             <View style={{margin: 10, marginTop: 30}}>
               <Grid>
                 <Col size={10}>
-                  <Row style={[STYLES.RowView, {borderTopLeftRadius: 15, height: 60, backgroundColor: '#36c3d0'}]}>
-                    <Text style={[STYLES.RowText, {fontWeight: 'bold', fontSize: 16}]}>S No</Text>
+                  <Row style={[STYLES.RowView, {borderTopLeftRadius: 15, height: 60, backgroundColor: colors.SECONDARY}]}>
+                    <Text style={[STYLES.RowText, {fontWeight: 'bold', color: '#ffffff', fontSize: 16}]}>S No</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
                     <Text style={STYLES.RowText}>1.</Text>
                   </Row>
-                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#effcfc'}]}>
+                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#bfa09d'}]}>
                     <Text style={STYLES.RowText}>2.</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
@@ -53,13 +53,13 @@ const ProductROrder = () => {
                   </Row>
                 </Col>
                 <Col size={20}>
-                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#36c3d0'}]}>
-                    <Text style={[STYLES.RowText, {fontWeight: 'bold', fontSize: 16}]}>SUPPLIERS</Text>
+                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: colors.SECONDARY}]}>
+                    <Text style={[STYLES.RowText, {fontWeight: 'bold', color: '#ffffff', fontSize: 16}]}>SUPPLIERS</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
                     <Text style={STYLES.RowText}>SUPPLIER 1</Text>
                   </Row>
-                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#effcfc'}]}>
+                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#bfa09d'}]}>
                     <Text style={STYLES.RowText}>SUPPLIER 2</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
@@ -67,13 +67,13 @@ const ProductROrder = () => {
                   </Row>
                 </Col>
                 <Col size={10}>
-                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#36c3d0'}]}>
-                    <Text style={[STYLES.RowText, {fontWeight: 'bold', fontSize: 16}]}>PO</Text>
+                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: colors.SECONDARY}]}>
+                    <Text style={[STYLES.RowText, {fontWeight: 'bold', color: '#ffffff', fontSize: 16}]}>PO</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
                     <Text style={STYLES.RowText}>4478</Text>
                   </Row>
-                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#effcfc'}]}>
+                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#bfa09d'}]}>
                     <Text style={STYLES.RowText}>4474</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
@@ -81,13 +81,13 @@ const ProductROrder = () => {
                   </Row>
                 </Col>
                 <Col size={20}>
-                  <Row style={[STYLES.RowView, {borderTopRightRadius: 15, height: 60, backgroundColor: '#36c3d0'}]}>
-                    <Text style={[STYLES.RowText, {fontWeight: 'bold', fontSize: 16}]}>EXP DELIVERY DATE</Text>
+                  <Row style={[STYLES.RowView, {borderTopRightRadius: 15, height: 60, backgroundColor: colors.SECONDARY}]}>
+                    <Text style={[STYLES.RowText, {fontWeight: 'bold', color: '#ffffff', fontSize: 16}]}>EXP DELIVERY DATE</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
                     <Text style={STYLES.RowText}>20 Nov 2021</Text>
                   </Row>
-                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#effcfc'}]}>
+                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#bfa09d'}]}>
                     <Text style={STYLES.RowText}>2 Dec 2021</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
@@ -104,17 +104,16 @@ const ProductROrder = () => {
               isVisible={modalVisibleMenu}
               animationIn="slideInLeft"
               animationOut="slideOutLeft"
+              backdropOpacity={0.2}
+              onBackdropPress={() => setModalVisibleMenu(false)}
             >
-            <Pressable onPress={() => setModalVisibleMenu(false)} style={{width: '28.5%', height: Dimensions.get("screen").height, alignSelf: 'flex-end', position: 'absolute', zIndex: 1}}>
-                <Text style={{color: '#fff'}}></Text>
-            </Pressable>
-                <LinearGradient colors={['#417bdb', '#337cdb']} style={STYLES.modalViewRegistration}>
+                <LinearGradient colors={[colors.SECONDARY, colors.SECONDARY]} style={STYLES.modalViewRegistration}>
                     <ScrollView>
                         <View style={{marginTop: '8%', margin: 10}}>
                         <TouchableOpacity onPress={() => setModalVisibleMenu(false)} style={{zIndex: 1, width: 25, alignSelf: 'flex-end'}}>
                             <FontAwesome name='times' style={{marginTop: 90, bottom: 60}} size={30} color="#ffffff" />
                         </TouchableOpacity> 
-                        <Image source={require("../assets/images/logo.png")} style={{width: 250, height: 250, marginTop: -120}} resizeMode='contain'/> 
+                        <Image source={require("../assets/images/logo-white.png")} style={{width: 250, height: 250, marginTop: -120}} resizeMode='contain'/> 
                       <ModalView />
                       </View>
                       <Text></Text>
