@@ -123,17 +123,16 @@ const NewAnalysis = () => {
                 isVisible={modalVisibleMenu}
                 animationIn="slideInLeft"
                 animationOut="slideOutLeft"
+                backdropOpacity={0.2}
+                onBackdropPress={() => setModalVisibleMenu(false)}
               >
-              <Pressable onPress={() => setModalVisibleMenu(false)} style={{width: '28.5%', height: Dimensions.get("screen").height, alignSelf: 'flex-end', position: 'absolute', zIndex: 1}}>
-                  <Text style={{color: '#fff'}}></Text>
-              </Pressable>
-                  <LinearGradient colors={['#417bdb', '#337cdb']} style={STYLES.modalViewRegistration}>
+                  <LinearGradient colors={[colors.SECONDARY, colors.SECONDARY]} style={STYLES.modalViewRegistration}>
                       <ScrollView>
                           <View style={{marginTop: '8%', margin: 10}}>
                           <TouchableOpacity onPress={() => setModalVisibleMenu(false)} style={{zIndex: 1, width: 25, alignSelf: 'flex-end'}}>
                               <FontAwesome name='times' style={{marginTop: 90, bottom: 60}} size={30} color="#ffffff" />
                           </TouchableOpacity> 
-                          <Image source={require("../assets/images/logo.png")} style={{width: 250, height: 250, marginTop: -120}} resizeMode='contain'/> 
+                          <Image source={require("../assets/images/logo-white.png")} style={{width: 250, height: 250, marginTop: -120}} resizeMode='contain'/> 
                         <ModalView />
                         </View>
                         <Text></Text>

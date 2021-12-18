@@ -106,87 +106,87 @@ const NewRegistration = () => {
               </View> */}
               <Grid style={{marginTop: 10}}>
                 <Col size={25}>
-                  <Row style={[STYLES.RowView, {borderTopLeftRadius: 15, height: 90, backgroundColor: '#36c3d0'}]}>
+                  <Row style={[STYLES.RowView, {borderTopLeftRadius: 15, height: 90, backgroundColor: colors.SECONDARY}]}>
                     <Text style={[STYLES.RowText, {color: '#ffffff'}]}>Car Details</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
                     <Text style={STYLES.RowText}>Car Details</Text>
                   </Row>
-                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#effcfc'}]}>
+                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#bfa09d'}]}>
                     <Text style={STYLES.RowText}>Car Details</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
                     <Text style={STYLES.RowText}>Car Details</Text>
                   </Row>
-                  <Row style={[STYLES.RowView, {height: 60, borderBottomLeftRadius: 15, backgroundColor: '#effcfc'}]}>
+                  <Row style={[STYLES.RowView, {height: 60, borderBottomLeftRadius: 15, backgroundColor: '#bfa09d'}]}>
                     <Text style={STYLES.RowText}>Car Details</Text>
                   </Row>
                 </Col>
                 <Col size={25}>
-                  <Row style={[STYLES.RowView, {height: 90, backgroundColor: '#36c3d0'}]}>
+                  <Row style={[STYLES.RowView, {height: 90, backgroundColor: colors.SECONDARY}]}>
                     <Text style={[STYLES.RowText, {color: '#ffffff'}]}>Car Details</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
                     <Text style={STYLES.RowText}>Car Details</Text>
                   </Row>
-                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#effcfc'}]}>
+                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#bfa09d'}]}>
                     <Text style={STYLES.RowText}>Car Details</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
                     <Text style={STYLES.RowText}>Car Details</Text>
                   </Row>
-                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#effcfc'}]}>
+                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#bfa09d'}]}>
                     <Text style={STYLES.RowText}>Car Details</Text>
                   </Row>
                 </Col>
                 <Col size={25}>
-                  <Row style={[STYLES.RowView, {height: 90, backgroundColor: '#36c3d0'}]}>
+                  <Row style={[STYLES.RowView, {height: 90, backgroundColor: colors.SECONDARY}]}>
                     <Text style={[STYLES.RowText, {color: '#ffffff'}]}>Car Details</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
                     <Text style={STYLES.RowText}>Car Details</Text>
                   </Row>
-                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#effcfc'}]}>
+                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#bfa09d'}]}>
                     <Text style={STYLES.RowText}>Car Details</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
                     <Text style={STYLES.RowText}>Car Details</Text>
                   </Row>
-                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#effcfc'}]}>
+                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#bfa09d'}]}>
                     <Text style={STYLES.RowText}>Car Details</Text>
                   </Row>
                 </Col>
                 <Col size={25}>
-                  <Row style={[STYLES.RowView, {height: 90, backgroundColor: '#36c3d0'}]}>
+                  <Row style={[STYLES.RowView, {height: 90, backgroundColor: colors.SECONDARY}]}>
                     <Text style={[STYLES.RowText, {color: '#ffffff'}]}>Car Details</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
                     <Text style={STYLES.RowText}>Car Details</Text>
                   </Row>
-                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#effcfc'}]}>
+                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#bfa09d'}]}>
                     <Text style={STYLES.RowText}>Car Details</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
                     <Text style={STYLES.RowText}>Car Details</Text>
                   </Row>
-                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#effcfc'}]}>
+                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#bfa09d'}]}>
                     <Text style={STYLES.RowText}>Car Details</Text>
                   </Row>
                 </Col>
                 <Col size={25}>
-                  <Row style={[STYLES.RowView, {borderTopRightRadius: 15, height: 90, backgroundColor: '#36c3d0'}]}>
+                  <Row style={[STYLES.RowView, {borderTopRightRadius: 15, height: 90, backgroundColor: colors.SECONDARY}]}>
                     <Text style={[STYLES.RowText, {color: '#ffffff'}]}>Car Details</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
                     <Text style={STYLES.RowText}>Car Details</Text>
                   </Row>
-                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#effcfc'}]}>
+                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#bfa09d'}]}>
                     <Text style={STYLES.RowText}>Car Details</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
                     <Text style={STYLES.RowText}>Car Details</Text>
                   </Row>
-                  <Row style={[STYLES.RowView, {height: 60, borderBottomRightRadius: 1, backgroundColor: '#effcfc'}]}>
+                  <Row style={[STYLES.RowView, {height: 60, borderBottomRightRadius: 1, backgroundColor: '#bfa09d'}]}>
                     <Text style={STYLES.RowText}>Car Details</Text>
                   </Row>
                 </Col>
@@ -233,17 +233,16 @@ const NewRegistration = () => {
                 isVisible={modalVisibleMenu}
                 animationIn="slideInLeft"
                 animationOut="slideOutLeft"
+                backdropOpacity={0.2}
+                onBackdropPress={() => setModalVisibleMenu(false)}
               >
-              <Pressable onPress={() => setModalVisibleMenu(false)} style={{width: '28.5%', height: Dimensions.get("screen").height, alignSelf: 'flex-end', position: 'absolute', zIndex: 1}}>
-                  <Text style={{color: '#fff'}}></Text>
-              </Pressable>
-                  <LinearGradient colors={['#417bdb', '#337cdb']} style={STYLES.modalViewRegistration}>
+                  <LinearGradient colors={[colors.SECONDARY, colors.SECONDARY]} style={STYLES.modalViewRegistration}>
                       <ScrollView>
                           <View style={{marginTop: '8%', margin: 10}}>
                           <TouchableOpacity onPress={() => setModalVisibleMenu(false)} style={{zIndex: 1, width: 25, alignSelf: 'flex-end'}}>
                               <FontAwesome name='times' style={{marginTop: 90, bottom: 60}} size={30} color="#ffffff" />
                           </TouchableOpacity> 
-                          <Image source={require("../assets/images/logo.png")} style={{width: 250, height: 250, marginTop: -120}} resizeMode='contain'/> 
+                          <Image source={require("../assets/images/logo-white.png")} style={{width: 250, height: 250, marginTop: -120}} resizeMode='contain'/> 
                         <ModalView />
                         </View>
                         <Text></Text>

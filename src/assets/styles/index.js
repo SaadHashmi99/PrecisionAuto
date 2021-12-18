@@ -12,10 +12,10 @@ export const STYLES = StyleSheet.create({
         justifyContent: 'center',
         height: 40,
         width: '100%',
-        backgroundColor: colors.PRIMARY
+        backgroundColor: colors.PRIMARY,
     },
     headText: {
-        color:colors.TEXT,
+        color: '#ffffff',
         fontSize: 15,
         fontWeight: 'bold',
         alignSelf: 'center',
@@ -45,7 +45,8 @@ export const STYLES = StyleSheet.create({
         paddingVertical: 7,
         paddingHorizontal: 15,
         borderRadius: 5,
-        bottom: 10
+        bottom: 10,
+        color: '#ffffff'
     },
     appButtonUsers: {
         color:colors.TEXT,
@@ -242,7 +243,7 @@ export const STYLES = StyleSheet.create({
     },
 
     filterLine: {
-        borderBottomWidth: 4, flexDirection: 'column', borderColor: 'orange' 
+        borderBottomWidth: 4, flexDirection: 'column', borderColor: colors.SECONDARY 
     },
 
     cell: {
