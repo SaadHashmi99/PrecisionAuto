@@ -61,42 +61,42 @@ const NewAnalysis = () => {
             <View style={{margin: 10, marginTop: 30}}>
               <Grid>
                 <Col size={5}>
-                  <Row style={[STYLES.RowView, {borderTopLeftRadius: 15, height: 60, backgroundColor: '#36c3d0'}]}>
-                    <Text style={[STYLES.RowText, {fontWeight: 'bold', fontSize: 16}]}>S No</Text>
+                  <Row style={[STYLES.RowView, {borderTopLeftRadius: 15, height: 60, backgroundColor: colors.SECONDARY}]}>
+                    <Text style={[STYLES.RowText, {fontWeight: 'bold', color: '#ffffff', fontSize: 16}]}>S No</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 50, backgroundColor: '#ffffff'}]}>
                     <Text style={STYLES.RowText}>1.</Text>
                   </Row>
-                  <Row style={[STYLES.RowView, {height: 50, backgroundColor: '#effcfc'}]}>
+                  <Row style={[STYLES.RowView, {height: 50, backgroundColor: '#bfa09d'}]}>
                     <Text style={STYLES.RowText}>2.</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 50, backgroundColor: '#ffffff'}]}>
                     <Text style={STYLES.RowText}>3.</Text>
                   </Row>
-                  <Row style={[STYLES.RowView, {height: 50, backgroundColor: '#effcfc'}]}>
+                  <Row style={[STYLES.RowView, {height: 50, backgroundColor: '#bfa09d'}]}>
                     <Text style={STYLES.RowText}>4.</Text>
                   </Row>
                 </Col>
                 <Col size={15}>
-                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#36c3d0'}]}>
-                    <Text style={[STYLES.RowText, {fontWeight: 'bold', fontSize: 16}]}>LABOUR TYPE</Text>
+                  <Row style={[STYLES.RowView, {height: 60, backgroundColor: colors.SECONDARY}]}>
+                    <Text style={[STYLES.RowText, {fontWeight: 'bold', color: '#ffffff', fontSize: 16}]}>LABOUR TYPE</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 50, backgroundColor: '#ffffff'}]}>
                     <Text style={STYLES.RowText}>BODY WORKER</Text>
                   </Row>
-                  <Row style={[STYLES.RowView, {height: 50, backgroundColor: '#effcfc'}]}>
+                  <Row style={[STYLES.RowView, {height: 50, backgroundColor: '#bfa09d'}]}>
                     <Text style={STYLES.RowText}>PAINTER</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 50, backgroundColor: '#ffffff'}]}>
                     <Text style={STYLES.RowText}>MECHANUC</Text>
                   </Row>
-                  <Row style={[STYLES.RowView, {height: 50, backgroundColor: '#effcfc'}]}>
+                  <Row style={[STYLES.RowView, {height: 50, backgroundColor: '#bfa09d'}]}>
                     <Text style={STYLES.RowText}>DETAILER</Text>
                   </Row>
                 </Col>
                 <Col size={17}>
-                  <Row style={[STYLES.RowView, {borderTopRightRadius: 15, height: 60, backgroundColor: '#36c3d0'}]}>
-                    <Text style={[STYLES.RowText, {fontWeight: 'bold', fontSize: 16}]}>PER HOUR CHARGES</Text>
+                  <Row style={[STYLES.RowView, {borderTopRightRadius: 15, height: 60, backgroundColor: colors.SECONDARY}]}>
+                    <Text style={[STYLES.RowText, {fontWeight: 'bold', color: '#ffffff', fontSize: 16}]}>PER HOUR CHARGES</Text>
                   </Row>
                   <Row style={[STYLES.RowView, {height: 50, backgroundColor: '#ffffff'}]}>
                     <Text style={[STYLES.RowText, {fontWeight: 'bold', marginRight: '25%'}]}>$</Text>
@@ -117,7 +117,7 @@ const NewAnalysis = () => {
                       placeholderStyle={{fontSize: 11, fontFamily: 'Montserrat-Regular'}}
                     />
                   </Row>
-                  <Row style={[STYLES.RowView, {height: 50, backgroundColor: '#effcfc'}]}>
+                  <Row style={[STYLES.RowView, {height: 50, backgroundColor: '#bfa09d'}]}>
                   <Text style={[STYLES.RowText, {fontWeight: 'bold', marginRight: '25%'}]}>$</Text>
                     <Dropdown
                       style={[STYLES.inputSettingRow, {marginLeft: 5, marginTop: 16}]}
@@ -155,7 +155,7 @@ const NewAnalysis = () => {
                       placeholderStyle={{fontSize: 11, fontFamily: 'Montserrat-Regular'}}
                     />
                   </Row>
-                  <Row style={[STYLES.RowView, {height: 50, backgroundColor: '#effcfc'}]}>
+                  <Row style={[STYLES.RowView, {height: 50, backgroundColor: '#bfa09d'}]}>
                   <Text style={[STYLES.RowText, {fontWeight: 'bold', marginRight: '25%'}]}>$</Text>
                     <Dropdown
                       style={[STYLES.inputSettingRow, {marginLeft: 5, marginTop: 16}]}
@@ -185,17 +185,16 @@ const NewAnalysis = () => {
               isVisible={modalVisibleMenu}
               animationIn="slideInLeft"
               animationOut="slideOutLeft"
+              backdropOpacity={0.2}
+              onBackdropPress={() => setModalVisibleMenu(false)}
             >
-            <Pressable onPress={() => setModalVisibleMenu(false)} style={{width: '28.5%', height: Dimensions.get("screen").height, alignSelf: 'flex-end', position: 'absolute', zIndex: 1}}>
-                <Text style={{color: '#fff'}}></Text>
-            </Pressable>
-                <LinearGradient colors={['#417bdb', '#337cdb']} style={STYLES.modalViewRegistration}>
+                <LinearGradient colors={[colors.SECONDARY, colors.SECONDARY]} style={STYLES.modalViewRegistration}>
                     <ScrollView>
                         <View style={{marginTop: '8%', margin: 10}}>
                         <TouchableOpacity onPress={() => setModalVisibleMenu(false)} style={{zIndex: 1, width: 25, alignSelf: 'flex-end'}}>
                             <FontAwesome name='times' style={{marginTop: 90, bottom: 60}} size={30} color="#ffffff" />
                         </TouchableOpacity> 
-                        <Image source={require("../assets/images/logo.png")} style={{width: 250, height: 250, marginTop: -120}} resizeMode='contain'/> 
+                        <Image source={require("../assets/images/logo-white.png")} style={{width: 250, height: 250, marginTop: -120}} resizeMode='contain'/> 
                       <ModalView />
                       </View>
                       <Text></Text>

@@ -76,120 +76,120 @@ const Registration = () => {
             />
           </View>
           <View style={{margin: 10}}>
-            <Grid style={{borderWidth: 1}}>
+            <Grid>
               <Col size={15}>
-                <Row style={STYLES.cell2}>
-                  <Text style={[STYLES.tableText2, {fontWeight: 'bold'}]}>S No</Text>
+                <Row style={[STYLES.RowView, {height: 90, backgroundColor: colors.SECONDARY, borderTopLeftRadius: 15, elevation: 20}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16, color: '#ffffff'}]}>S No</Text>
                 </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>1.</Text>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff', elevation: 20}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>1.</Text>
                 </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>2.</Text>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff', elevation: 20}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>2.</Text>
                 </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>3.</Text>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff', elevation: 20}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>3.</Text>
                 </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>4.</Text>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff', elevation: 20}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>4.</Text>
                 </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>5.</Text>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff', elevation: 20}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>5.</Text>
                 </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>6.</Text>
-                </Row>
-              </Col>
-              <Col size={20}>
-                <Row style={STYLES.cell2}>
-                  <Text style={[STYLES.tableText2, {fontWeight: 'bold'}]}>VIN No.</Text>
-                </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>5432</Text>
-                </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>8412</Text>
-                </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>5421</Text>
-                </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>2232</Text>
-                </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>2312</Text>
-                </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>5661</Text>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff', elevation: 20}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>6.</Text>
                 </Row>
               </Col>
               <Col size={20}>
-                <Row style={STYLES.cell2}>
-                  <Text style={[STYLES.tableText2, {fontWeight: 'bold'}]}>STOCK RO</Text>
+                <Row style={[STYLES.RowView, {height: 90, backgroundColor: colors.SECONDARY}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16, color: '#ffffff'}]}>VIN No.</Text>
                 </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>445</Text>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>5432</Text>
                 </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>989</Text>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>8412</Text>
                 </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>102</Text>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>5421</Text>
                 </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>400</Text>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>2232</Text>
                 </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>789</Text>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>2312</Text>
                 </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>862</Text>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>5661</Text>
+                </Row>
+              </Col>
+              <Col size={20}>
+                <Row style={[STYLES.RowView, {height: 90, backgroundColor: colors.SECONDARY}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16, color: '#ffffff'}]}>STOCK RO</Text>
+                </Row>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>445</Text>
+                </Row>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>989</Text>
+                </Row>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>102</Text>
+                </Row>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>400</Text>
+                </Row>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>789</Text>
+                </Row>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>862</Text>
                 </Row>
               </Col>
               <Col size={30}>
-                <Row style={STYLES.cell2}>
-                  <Text style={[STYLES.tableText2, {fontWeight: 'bold'}]}>Reg Date</Text>
+                <Row style={[STYLES.RowView, {height: 90, backgroundColor: colors.SECONDARY}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16, color: '#ffffff'}]}>Reg Date</Text>
                 </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>2-Nov-21</Text>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>2-Nov-21</Text>
                 </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>15-Dec-21</Text>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>15-Dec-21</Text>
                 </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>10-March-21</Text>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>10-March-21</Text>
                 </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>2-Nov-21</Text>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>2-Nov-21</Text>
                 </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>15-Dec-21</Text>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>15-Dec-21</Text>
                 </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>10-March-21</Text>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>10-March-21</Text>
                 </Row>
               </Col>
               <Col size={25}>
-                <Row style={STYLES.cell2}>
-                  <Text style={[STYLES.tableText2, {fontWeight: 'bold'}]}>PARTS</Text>
+                <Row style={[STYLES.RowView, {height: 90, backgroundColor: colors.SECONDARY, borderTopRightRadius: 15}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16, color: '#ffffff'}]}>PARTS</Text>
                 </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>Parts Evaluation</Text>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>Parts Evaluation</Text>
                 </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>Parts Evaluation</Text>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>Parts Evaluation</Text>
                 </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>Parts Evaluation</Text>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>Parts Evaluation</Text>
                 </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>Parts Evaluation</Text>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>Parts Evaluation</Text>
                 </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>Parts Evaluation</Text>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>Parts Evaluation</Text>
                 </Row>
-                <Row style={STYLES.cell}>
-                  <Text style={STYLES.tableText2}>Parts Evaluation</Text>
+                <Row style={[STYLES.RowView, {height: 60, backgroundColor: '#ffffff'}]}>
+                  <Text style={[STYLES.RowText, {fontSize: 16}]}>Parts Evaluation</Text>
                 </Row>
               </Col>
             </Grid>
@@ -202,11 +202,10 @@ const Registration = () => {
             isVisible={modalVisibleMenu}
             animationIn="slideInLeft"
             animationOut="slideOutLeft"
+            backdropOpacity={0.2}
+            onBackdropPress={() => setModalVisibleMenu(false)}
           >
-          <Pressable onPress={() => setModalVisibleMenu(false)} style={{width: '28.5%', height: Dimensions.get("screen").height, alignSelf: 'flex-end', position: 'absolute', zIndex: 1}}>
-              <Text style={{color: '#fff'}}></Text>
-          </Pressable>
-              <LinearGradient colors={['#417bdb', '#337cdb']} style={STYLES.modalViewRegistration}>
+              <LinearGradient colors={[colors.SECONDARY, colors.SECONDARY]} style={STYLES.modalViewRegistration}>
                   <ScrollView>
                       <View style={{marginTop: '8%', margin: 10}}>
                       <TouchableOpacity onPress={() => setModalVisibleMenu(false)} style={{zIndex: 1, width: 25, alignSelf: 'flex-end'}}>
@@ -218,7 +217,7 @@ const Registration = () => {
                               <Ionicons name='remove-circle-outline' style={{marginLeft: 8}} size={25} color="#ffffff" />
                           } */}
                       </TouchableOpacity> 
-                      <Image source={require("../assets/images/logo.png")} style={{width: 250, height: 250, marginTop: -120}} resizeMode='contain'/> 
+                      <Image source={require("../assets/images/logo-white.png")} style={{width: 250, height: 250, marginTop: -120}} resizeMode='contain'/> 
                     <ModalView />
                     </View>
                     <Text></Text>

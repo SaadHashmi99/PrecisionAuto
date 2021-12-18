@@ -48,7 +48,7 @@ export default function Login() {
             </View>
 
             <TouchableOpacity activeOpacity={0.8} onPress={() => navigation.navigate('Dashboard')}>
-                <LinearGradient colors={['#3e1c13',  '#633f2e']} style={styles.linearGradient}>
+                <LinearGradient colors={[colors.SECONDARY, colors.SECONDARY]} style={styles.linearGradient}>
                     <Text style={styles.buttonText}>Next</Text>
                 </LinearGradient>
             </TouchableOpacity>
